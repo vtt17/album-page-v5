@@ -1,0 +1,70 @@
+body {  
+	font: 15px/1.5 Arial, Helvetica, sans-serif;   			/* font-size, line-height, font-family */
+	padding: 0;
+	margin:0;
+	background: #f4f4f4;
+}
+.container {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	padding-bottom: 50px;
+
+}
+.top {
+	height: 470px;
+	background-color: #008080;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	color: white;
+	font-style: italic;
+}
+.picture {
+	height: 300px;
+	background-image: url(album-cover.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+h1 {
+	text-shadow: 2px 2px 0 #000080, -2px 2px 0 #000080;
+}
+h1, h3 {
+		font-family: Helvetica, Arial, sans-serif;
+}
+a {
+	text-decoration: none;
+	color: #bb8fce;
+}
+#weblink {
+	width: 300px;
+	margin: auto;
+}
+#weblink:hover {						/* use selector:pseudo-class, in this case hover for weblink */
+	background-color: #0000CD;
+	text-decoration: underline;
+}
+#member {
+	padding: 10px;
+}
+table, th, td {
+	border: 1px black solid;
+	border-collapse: collapse;			/* collapse border to become one line each */
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #FFF0F5;
+	margin: auto;
+	text-align: center;
+}
+tbody {
+	font-style: italic;
+}
+tr {
+	height: 30px;
+}
+th {
+	background-color: #008080;
+}
+#member ul li {
+	font-style: italic;
+}
